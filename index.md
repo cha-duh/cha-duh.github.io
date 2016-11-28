@@ -11,54 +11,25 @@ games, toys, algorithmic music generators, data analysis
 
 my thanks to:
 <ul>
-  <li>[github pages](https://pages.github.com) for painless portfolio & infrequent blog maintenence</li>
-  <li>[lampiaosec](https://lampiaosec.github.io) for the jekyll theme</li>
-  <li>[jp2a](https://csl.name/jp2a/) for image-to-ascii conversion</li>
+  <li><a href="https://pages.github.com">github pages</a> for painless portfolio & infrequent blog maintenence</li>
+  <li><a href="https://lampiaosec.github.io">lampiaosec</a> for the jekyll theme</li>
+  <li><a href="https://csl.name/jp2a/">jp2a</a> for image-to-ascii conversion</li>
 </ul>
 
 # $ cat contact.txt
 {:id="contact"}
 
-
-# $ cat team.txt
-{:id="team"}
-
-<ul>
-{% for member in site.categories.team reversed %}
-<li id="{{ member.title }}">{{ member.title }}
-<ul>
-<li>{{ member.mail }}</li>
-<li><a href="https://github.com/{{ member.github }}">https://github.com/{{ member.github }}</a></li>
-<li><a href="{{ member.site }}">{{ member.site }}</a></li>
-</ul>
-</li>
-{% endfor %}
-</ul>
+<a href="https://github.com/cha-duh">github</a>
 
 # $ cat projects.txt
 {:id="projects"}
 
 <ul>
 {% for project in site.categories.projects %}
-<li><a href="{{ project.link }}">{{ project.title }}</a> - {{ project.description }}</li>
-{% endfor %}
-</ul>
-
-# $ cat tools.txt
-{:id="tools"}
-
-<ul>
-{% for tool in site.categories.tools %}
-<li><a href="{{ tool.link }}">{{ tool.title }}</a> - {{ tool.description }}</li>
-{% endfor %}
-</ul>
-
-# $ cat talks.txt
-{:id="talks"}
-
-<ul>
-{% for talk in site.categories.talks %}
-<li><a href="{{ talk.link }}" title="{{ talk.description }}">{{ talk.title }}</a> at {{ talk.where }}</li>
+  <li>
+    :: <a href="{{ project.link }}">{{ project.title }}</a> ::
+    <ul><li>:: {{ project.description }} ::</li></ul>
+  </li>
 {% endfor %}
 </ul>
 
@@ -66,13 +37,12 @@ my thanks to:
 {:id="posts"}
 
 <ul>
-{% for post in site.categories.posts %}
-
-{% if post.en %}
-<li>{{ post.title }} :: <a href="{{ post.url }}" title="{{ post.description }}">en</a> :: <a href="{{ post.pt }}" title="{{ post.description_pt }}">pt_br</a></li>
-{% endif %}
-
-{% endfor %}
+  {% for post in site.categories.posts %}
+    <li>
+      :: <a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a> ::
+      <ul><li>:: date : {{post.date}} ::</li></ul>
+    </li>
+  {% endfor %}
 </ul>
 
 # $ cat articles.txt
@@ -80,10 +50,11 @@ my thanks to:
 
 <ul>
 {% for post in site.categories.articles %}
-
-{% if post.en %}
-<li>{{ post.title }} :: <a href="{{ post.url }}" title="{{ post.description }}">en</a> :: <a href="{{ post.pt }}" title="{{ post.description_pt }}">pt_br</a></li>
-{% endif %}
-
+  <li>
+    :: <a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a> ::
+    <ul>
+      <li>:: date : {{post.date}} :: </li>
+    </ul>
+  </li>
 {% endfor %}
 </ul>

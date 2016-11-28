@@ -1,23 +1,23 @@
 # Site specific settings
 title: "cha-duh"
-name: "joshuaowens.info"
+name: "cha-duh"
 keywords: "joshua, owens, cha-duh, cha, duh"
 baseurl: ""
-url: "http://www.joshuaowens.info"
+url: "https://cha-duh.github.io"
 description: "front-page-of-my-life"
 cover: "/assets/img/cover.svg"
 fanpage_id: ""
 
 # Site general settings
 lang: "en"
-lang_alternate: ""
+# lang_alternate: ""
 ssl: false # It will redirect to https
 
 # Media
 # Just the shortname:
 # facebook: lampiaosec # Rigth
 # facebook: facebook.com/lampiaosec # Wrong
-# disqus: test
+disqus: cha_duh 
 # twitter: 
 # facebook: 
 github: cha-duh
