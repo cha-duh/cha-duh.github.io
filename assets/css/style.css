@@ -67,6 +67,7 @@ pre {
 
 .ascii-class {
   font: 10px monospace;
+  padding-right: 20px;
 }
 
 .ascii-name {
