@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>joshuaowens.info</title>
+  <title>cha-duh</title>
   <link href="http://localhost:4000/atom.xml" rel="self" />
   <link href="http://localhost:4000/"/>
-  <updated>2016-11-28T22:13:28+04:00</updated>
+  <updated>2016-11-28T22:17:47+04:00</updated>
   <id>http://localhost:4000</id>
   <author>
-    <name>joshuaowens.info</name>
+    <name>cha-duh</name>
   </author>
   
     <entry>
