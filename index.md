@@ -5,14 +5,19 @@ layout: default
 # $ cat about.txt
 {:id="about"}
 
-This is a theme intended to use to [lampiaosec](https://lampiaosec.github.io). So, it's our taste, but because we like free culture, it's free to.
+track my development here
+games, toys, algorithmic music generators, data analysis
 
-The categories to post was to support us, but you can change as you need.
+my thanks to:
+<ul>
+  <li>[github pages](https://pages.github.com) for painless portfolio & infrequent blog maintenence</li>
+  <li>[lampiaosec](https://lampiaosec.github.io) for the jekyll theme</li>
+  <li>[jp2a](https://csl.name/jp2a/) for image-to-ascii conversion</li>
+
 
 # $ cat contact.txt
 {:id="contact"}
 
-I think that all about this theme is intuitive, but if you want help, please, contact me: [gjuniioor](https://github.com/gjuniioor).
 
 # $ cat team.txt
 {:id="team"}
