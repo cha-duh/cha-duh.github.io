@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>joshuaowens.info</title>
+  <link href="http://localhost:4000/atom.xml" rel="self" />
+  <link href="http://localhost:4000/"/>
+  <updated>2016-11-28T22:10:20+04:00</updated>
+  <id>http://localhost:4000</id>
+  <author>
+    <name>joshuaowens.info</name>
+  </author>
+  
+    <entry>
+      <title>Talk title</title>
+      <link href="https://linktotalk" />
+      <updated>2016-02-28T00:00:00+04:00</updated>
+      <id>/talks/some-talk</id>
+      <content type="html">Description about the subject</content>
+    </entry>
+  
+    <entry>
+      <title>template post</title>
+      <link href="/posts/template-post/" />
+      <updated>2016-01-01T16:00:00+04:00</updated>
+      <id>/posts/template-post</id>
+      <content type="html">A template post</content>
+    </entry>
+  
+    <entry>
+      <title>template article</title>
+      <link href="/articles/example-article/" />
+      <updated>2016-01-01T16:00:00+04:00</updated>
+      <id>/articles/example-article</id>
+      <content type="html">template article</content>
+    </entry>
+  
+    <entry>
+      <title>template</title>
+      <link href="/projects/template-project/" />
+      <updated>2016-01-01T00:00:00+04:00</updated>
+      <id>/projects/template-project</id>
+      <content type="html">template description</content>
+    </entry>
+  
+    <entry>
+      <title>tool 02</title>
+      <link href="https://github.com/repository" />
+      <updated>2015-11-26T00:00:00+04:00</updated>
+      <id>/tools/tool-two</id>
+      <content type="html">description about the tool</content>
+    </entry>
+  
+    <entry>
+      <title>tool 01</title>
+      <link href="https://github.com/repository" />
+      <updated>2015-11-26T00:00:00+04:00</updated>
+      <id>/tools/tool-one</id>
+      <content type="html">description about the tool</content>
+    </entry>
+  
+    <entry>
+      <title>cha-duh</title>
+      <link href="/team/cha-duh/" />
+      <updated>2015-06-01T00:00:00+04:00</updated>
+      <id>/team/cha-duh</id>
+      <content type="html"></content>
+    </entry>
+  
+</feed>

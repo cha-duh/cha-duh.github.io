@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Basic information about this page -->
+<meta charset="UTF-8">
+<link rel="icon" type="image/x-icon" href="/assets/img/fav.ico">
+<title>
+	
+	cha-duh
+</title>
+
+<!-- Meta tag looking for mobile devices -->
+<meta name="viewport" content="initial-scale=1.5">
+<meta name="theme-color" content="#232323">
+
+<!-- Good information about this page -->
+<meta name="description" content="front-page-of-my-life">
+<meta name="keywords" content="joshua, owens, cha-duh, cha, duh">
+<meta name="author" content="joshuaowens.info">
+
+<!-- Feed links -->
+<link rel="alternate" type="application/rss+xml" title="joshuaowens.info's RSS Feed" href="/rss.xml">
+<link rel="alternate" type="application/atom+xml" title="joshuaowens.info's Atom Feed" href="/atom.xml">
+
+<!-- Style and scripts files -->
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+<!-- Extra information about this page -->
+<link rel="license" type="text/plain" src="/assets/LICENSE">
+
+<!-- Facebook, Linkedin, Reddit and many others Open Graph -->
+<meta property="og:site_name" content="joshuaowens.info" />
+<meta property="og:title" content="cha-duh" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="front-page-of-my-life" />
+<meta property="og:url" content="http://localhost:4000" />
+<meta property="og:image:type" content="image/png" /> <!-- less than 5mB -->
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="315" />
+<meta property="og:image" content="/assets/img/cover.svg" />
+<meta property="og:locale" content="en" />
+<meta property="og:locale:alternate" content="" />
+<meta property="fb:page_id" content="" />
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="cha-duh" />
+<meta name="twitter:description" content="front-page-of-my-life" />
+<meta name="twitter:url" content="http://localhost:4000" />
+<meta name="twitter:image" content="/assets/img/cover.svg" />
+<meta name="twitter:author" content="" />
+
+<!-- Linkedin OGP cards -->
+<meta property="og:image" content="/assets/img/cover.svg" />
+<meta property="og:image:width" content="180" />
+<meta property="og:image:height" content="110" />
+
+<!-- Google+ OGP cards -->
+<meta itemprop="name" content="cha-duh" />
+<meta itemprop="author" content="joshua.w.owens" />
+<meta itemprop="description" content="front-page-of-my-life" />
+<meta itemprop="image" content="/assets/img/cover.svg" />
+
+
+
+
+	<body>
+		<header>
+  <pre class="ascii logo">
+  x;;::cxc:ccxxn;nnn=:nn;;;++=:nxcnncnn;ncnnxnnxxxxnnxnxxcnc=++nwwxnnc;:::cx%HHHHHXXXXXXXXHXX#XXXXHXXHHH
+  n:cccc;n;ccccnnnncc;ccccnn;:;cnxncxccnnnnxxxnxxxxxnnnnnnnc:++=nwwnxnnc::;cxxxHXXX###XX###@@@@@@@@#XX##
+  c;cccn;ccc;c;cccccc;cccncn;nnnxnxcnnncnnnxxxxxxxxxxnnnnnnn:+++cxwnnnxxn::cnnn$XX###########X########@@
+  c;ncccnncnccnnnccccccccxnnccxnxnccnccxcnnnxxwxxnxxxxxxxxxn:+++cxxcnnxxwx;:cxnnUXXXHXXXXXXXXXHHXXXXXXXX
+  c:;;cc:;:;;::==:c;c::nnxnxnnxwxxxnnxnnxnxxxxnwxxxxxxxnnxxx=+++nx%nnnnxxwx;:cxnnX####XXXXXHHHHHHHHHHHHH
+  xnxcc:+-,,-,,,,,,,--+=++=;nc;cxxxnnnxnnxnxxnxxxxxxxnnxxxxx=+++xwxxxxxxxxxx;nwxxwXXXXXXXXXXXXXXXHHHHHHH
+  =::+-+-----,,,,,,,,,,,,,,----===nnnnxxnxnxnnnxnxxxxxxnxxxx=+++xxxxxxxwxxxxwwwxxnHXXX###XX#####XXXXXHXH
+  -------,,,,,,,,,---------,,,,,,,-=;nnxcnxxnxxxxxwnxnxxxwwn+++=wwxnxxxwwxxxx%wxnxwX#############XXXXXX#
+  ,,,,,-------=:;x%%$$$$%xcnn;+---,-:cnnxnnxxnxwnxxxxxxxxxxn=++=wwxnxnwwwwwxw$wxnnnw##X############XXXXX
+  ,,,,,-=;cx%UHHUHXXXXXXXXHHXHUn+-,,,+:cnxnnxxnxwxnc;:===:;nwxxxxnnxxnxnxxwwwxxxxxn:xX#######XXXXXXXXXXX
+  ,--:n%UHHXXXXXXX##########XXXUw:--,,-:nnxncnn;:=--+==:cxwxnc;;;::cnwx++;xxwn=cxxxxnH#####XX###XXXXXXXX
+  ,-;w%$HHXX#XXXX#####@@####XXXH%;+-----cnnnn:----+++:;nw%xccwwc;::x%%%n=-;x%c=+;xxx;:wU%X#######XXXUHXX
+  -;x%$UHHXXXXXXXXXX######XXXHHHH%;+----;nc=----+=:cnx%UUU$$$wncnxw%$%$%c:cx$;++==nnnnc$x###X##XXXXHUUXX
+  -:x%$UUUHHX#XXXX#XUwn;:::;xnnxn:c:----=;---=c%UUHHXXXXXXXXHU$%%%%$$xxwx;cx%=--+++;ncc%x######XXH%$%%$U
+  ,=cwwwxxxxw%%wU%:---+++=;$#U;;;---,,,,-,-+cw$UHHHXX########XXH$%wwxxnwwn;x%=-,---+;;;;nXHXXXXHHUxwwxx%
+  ,---,,-+++==-,==--,,,,,--+==++c$$w;,,-+,+nw$UHHHXXX#X#########H$xxnc;;wwxnc+--+++==+:ncUUXXXXHw%xwnxc;
+  ,,,,,,----+:-=UU;:-,,,,,,-+---wXXH$==w:-cw%$UHHXXXXX###@@@#####X$wc==+;wxx:++-+++=+++c;;c%$$U%%ncw;:::
+  ,,,,,,,,,,,,-;HXHwc=,,,,,-:+-cXXXHUc;;-+x%$UHHHXXXX###@@@@@@###XH$w=--=xnnn:=++++++==+:;c;;;:;::::====
+  =,,,,,,,,,,,-;UHHHUn:+--+=:n$XXXXXU;:=+=;xw$UUHHXXXX###@@@####XXHw=+--=wwwxc;-++---+=;=:c:;c;;==+===+;
+  :=,,,,,,,,,+=nUHHHUUHHHXX######XXXU;-,,-,-+=;xw$HH$wwxxwxww%%%%$%%;+-+;$$%$wn=++-+-+;:=c=:==+c====+;=:
+  n:--,,,-=;w%nxHXH%w%$XXXX#####XXXXHc,,,,,,,,,-;;xx:,,,,,,,,,-+;c=:+=--:%U$Uww;+-:-++c;+,-$nxn;::;xnx=+
+  cn:++:n$UHHHc-=:cx%$UXXXXXXXXXXXXXHw-,,,,,,,,-;x%n=,,,,,,,,,,-;$HHn=--=n$$U$wx=-,-+---,,,;==;::;=++=-+
+  cn:;:nw$UHHH$n:cw$$UUUHHUUHXXXXXXXXw:,,,,,,,-:wX#$n-,,,,,,,--+:UXU;---:x$%%U%wn=------,,++-,---+=-++,,
+  ::==n;cw$UU$%ncw$UUUUU$$%%UX#XXXXXHc-++----+:nUXXX%c+,,,,,,--+wXX$=--;x$xxn$$wwcc;c+++--=--++++++++--,
+  cx;=:=;;xw%wn:;cxww%UUHHXXX##XXXXH%%=+nw%%%xx$X#XHUwxn::::::c$XXH%:+:ncx;:;n%xwwc:::=====+====+---,,,,
+  nxncnnc;;cw$$xcxww%wnnwUX###XXXHU%UX%-;xwwc=:n%$%%UU$$HHHHHXXXHHUx:=cncnn==cnxxwx;===============+++++
+  xw;;;;xc::c%$%c+++++=;xX###XXXH$wH#XHn+xw;:;;n%$HHX#XH$$HXHHHXXH$=+=;nnnxc:ccxxx%n:=============+++++-
+  x%nn;:;::;=:xwnc:c:;w$UXXXXHU%nwX##XXw+c$%c;cn$UHXXXXHUU$UHHXXHUx--+::xnnc;ncnxxxwc:::================
+  ;wnncc::;:::=;nxwwxxxx%%nxwn;c$#####XU+-c%wcx%w%$UHHHXHUHXXXXXH$w--+==:ncccnnnx;:cw;:::::=============
+  ::;xcccncncc=+++++=;++=+-+=;%X#######Xx-+:xwxww%$HHXX###XXXXHUHXU:n;;==;;ccnwxxc::nx;;::::::::::==+---
+  ;n=:;ncnnncx=++---,--,--=c$HX########X%nw+=x$UHHXX####XXHHHUUX#X%wwc;==c::;cx%xc;:=xnc:============+--
+  nncn::;ncxc;-=++++-+=:;wUHX#########$==;=-,+x$UHX###XHU$$$UX##X%$xxxcc=cnc;nxww;=:==xwn::===========++
+  cc;c;n:;cn+--+c;;cccnwUHXXX######H$%$n-++==--+:cnnnc;cx%UXXX##Xcc%U%cc:=cxxxnxxx====:xUw:===========++
+  ;nccnnc;:+,+=+cHXXXXHXXXXXX####Hc:wc:x;::;;=::==:::;;n%$UUHXX#X$nnwwn;=::=nwwxxxn;===:n$$;:======+++++
+  c;;;;;;;:=--=:=%X###XHHHXHHwwwwUc-=:=:;;;;=:;;;;;:;;;;cnw$UHXXXXU$%xc==::=+:xwwwwxxnc;;n$$;:====++++++
+  ;;;;;;;;:+--=+c%%wxncc;;xUx:xn=n;:::;;;;;=;;;;;:;;;c;;ccccnxwwUHHHUw;=+:::=++=;xxwxxxw%$UH$n:=++++++++
+  ;;;;;;;;:::+--:x+:cxxnc==c;=+==:;;;;;;;;=;;;;;:;;;;::;cccccccccnw$$x=++:::==++==:;cnc;;cnx%U%c=++-++++
+  ;;;;;;;;;;::===+-+=:::++=:::;;;;c;;;;;;=:;;;:=;;:==::;;;;;;;;;;;;;cc:++::=:::====::;;:::;;ccx%%n:++++-
+  ;;;;;;;;;;;;;;;;::::::;;;;;;;;c;;;;;;;::;;;::;:=+=::;;;;;;;;;;;;;;ccc:::==::===+=;;;;;:::;;;;;cxww;+++
+  ;;;;;;;;;;;;;;;;;;;;;;c;;;;;;c;;;;;;;::;;;=:;:=+==:::::;:;;;;;;;;;;;;cc:=+:==:+::=;;;:::::;;;;;;ccxx;+
+  ccccccc;cc;;;;;;;;cccc;;;;;:cc;;::;;::;;;::;;==+=:=:::::;::;;;;;;;;;;;;c:=+==+::+=::c:::::;;;c;;;cn;cn
+  cccccc;;;;;;;;cccc;cc;;;c;:;cc;::;;:=:;:=:;::=+===:=:::::;;;;;;;;;;;;;;;;;=++::++=:;c:;;;;;;;;cc;;;;;:
+  ::;;;;;;;;;;;;;cc;;;;;;;;:;cc;;::;;:+;:=+;;::=+=+=+==:::::;;;;;;;;;;;;;;;;;===+-+=:;;::;;;;;;;ccc;;:=:
+  :::::::::======:=:::::::===:::=+=::=+;:+=;::===+=+==:==:;::::;;;;;;c;;;;;;;;++--+==;::;;:;;;;cccccc;:=
+  ;;;ccccc;+:;;;;;;;;:::::=;::::===::=+;:-:;::===++++=+=:::::;;;;;;;;;;;;;;;;;:+---++=:;;;;;;;cccc;c;:++
+  ::ccccc;:+;;;;;c;;;==;;:;;=:;;==:=;=+;:+:::====+--++==:::::;;;;;;;;;;;;;;;;c;+-++++:::::;;;;cc;;;;;==+
+  cccccc;;+;;;;;ccc;:+;;::;;;;;;==;;;:+;=+::====-----+=::::::::;;;;;;;;cccc;;;;=,+:::;c:==:;;;cc;;;;::==
+  ;ccccc;=:;;;;;ccc;+:;;::;;;;;;:++;;:+:==::==+-,,--+=+==:;cxw%$$$$$$%wncccc;;;=,,+cc:;::=:::;cc;;;;:::=
+  ;;;;;;==:::=::;;;==;;::;;;;;;:::+:;:+:=:=:=+--,,,--+=:;xw%$$UUUUHHHHHXH$wcccc:,,+=;c;=:=:::;:;;;;;::::
+  xxncc;;::::::=:;:==::=:;;;;;:====:=:+:::+=--,,,,,-+=:;nxx%%$$$$UUUUUUHHHHUxc;=,,+:+=;;:==::;;;:::::::=
+  ########XHU%x;:=++++=++==:::;;:::;::+::=----,,,,,-+=:;nnxw%%$$$$$UUUUUUUUU$c;=,,+;:+-+;;:::;;;;;;;====
+
+<pre>
+	<pre class="ascii name">
+________________/\\\______________________________________________/\\\_________________/\\\_________        
+ _______________\/\\\_____________________________________________\/\\\________________\/\\\_________       
+  _______________\/\\\_____________________________________________\/\\\________________\/\\\_________      
+   _____/\\\\\\\\_\/\\\__________/\\\\\\\\\_____/\\\\\\\\\\\________\/\\\___/\\\____/\\\_\/\\\_________     
+    ___/\\\//////__\/\\\\\\\\\\__\////////\\\___\///////////____/\\\\\\\\\__\/\\\___\/\\\_\/\\\\\\\\\\__    
+     __/\\\_________\/\\\/////\\\___/\\\\\\\\\\_________________/\\\////\\\__\/\\\___\/\\\_\/\\\/////\\\_   
+      _\//\\\________\/\\\___\/\\\__/\\\/////\\\________________\/\\\__\/\\\__\/\\\___\/\\\_\/\\\___\/\\\_  
+       __\///\\\\\\\\_\/\\\___\/\\\_\//\\\\\\\\/\\_______________\//\\\\\\\/\\_\//\\\\\\\\\__\/\\\___\/\\\_ 
+        ____\////////__\///____\///___\////////\//_________________\///////\//___\/////////___\///____\///__
+</pre>
+</header>
+
+		<nav>
+	<ul>
+		<li><a href="/#">Home</a></li>
+		<li><a href="/#about">About</a></li>
+		<li><a href="/#contact">Contact</a></li>
+		<li><a href="/#projects">Projects</a></li>
+		<li><a href="/#posts">Posts</a></li>
+		<li><a href="/#articles">Articles</a></li>
+		<li><a href="/rss.xml">RSS</a>/<a href="/atom.xml">Atom</a></li>
+	</ul>
+</nav>
+
+		<main>
+			<h1 id="about">$ cat about.txt</h1>
+
+<p>track my development here</p>
+
+<p>games, toys, algorithmic music generators, data analysis</p>
+
+<p>my thanks to:</p>
+<ul>
+  <li><a href="https://pages.github.com">github pages</a> for painless portfolio &amp; infrequent blog maintenence</li>
+  <li><a href="https://lampiaosec.github.io">lampiaosec</a> for the jekyll theme</li>
+  <li><a href="https://csl.name/jp2a/">jp2a</a> for image-to-ascii conversion</li>
+</ul>
+
+<h1 id="contact">$ cat contact.txt</h1>
+
+<p><a href="https://github.com/cha-duh">github</a></p>
+
+<h1 id="projects">$ cat projects.txt</h1>
+
+<ul>
+
+  <li>
+    :: <a href="">template</a> ::
+    <ul><li>:: template description ::</li></ul>
+  </li>
+
+</ul>
+
+<h1 id="posts">$ cat posts.txt</h1>
+
+<ul>
+  
+    <li>
+      :: <a href="/posts/template-post/" title="A template post">template post</a> ::
+      <ul><li>:: date : 2016-01-01 16:00:00 +0400 ::</li></ul>
+    </li>
+  
+</ul>
+
+<h1 id="articles">$ cat articles.txt</h1>
+
+<ul>
+
+  <li>
+    :: <a href="/articles/example-article/" title="template article">template article</a> ::
+    <ul>
+      <li>:: date : 2016-01-01 16:00:00 +0400 :: </li>
+    </ul>
+  </li>
+
+</ul>
+
+		</main>
+		<footer>
+
+</footer>
+
+	</body>
+</html>

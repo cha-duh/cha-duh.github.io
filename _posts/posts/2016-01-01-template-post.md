@@ -1,17 +1,14 @@
 ---
 layout: post
-title: Example post
-date: 2016-05-01 12:00:00
+title: template post
+date: 2016-01-01 12:00:00
 categories: posts
 comments: true
 en: true
-description: An example post to this theme
-pt: /posts/example-post-pt-br/
-description_pt: Um post de exemplo para esse tema
-keywords: "Key, words, about, this, post, to, SEO"
+description: A template post
+keywords: "template, post"
 authors:
-    - author1
-    - author2
+    - cha-duh 
 ---
 
 # Header
