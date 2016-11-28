@@ -6,17 +6,17 @@ html {
 
 body {
 	background-color: rgba(0,0,0,0.97);
-	color: rgba(0,255,0,0.7);
+	color: rgba(150,255,150,0.7);
 	padding: 5px;
 	margin: auto;
 	width: 80%;
-	border: 1px dashed rgba(0,255,0,0.7);
+	border: 1px dashed rgba(150,255,150,0.7);
 	font-family: "Open Sans";
 }
 
 header, nav, main, footer {
 	margin: 15px;
-	border-bottom: 1px dashed rgba(0,255,0,0.5);
+	border-bottom: 1px dashed rgba(150,255,150,0.5);
 }
 
 header, nav {
@@ -24,7 +24,7 @@ header, nav {
 }
 
 .ascii {
-	color: rgba(0,255,0,1);
+	color: rgba(150,255,150,1);
 	font-weight: bold;
 }
 
@@ -44,7 +44,7 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: rgba(0,255,0,1);
+	color: rgba(150,255,150,1);
 }
 
 nav ul li a:hover {
@@ -75,15 +75,15 @@ pre {
 }
 
 .highlighter-rouge {
-	color: rgba(0,255,0,0.4);
+	color: rgba(150,255,150,0.4);
 }
 
 .highlight {
-	color: rgba(0,255,0,0.7);
+	color: rgba(150,255,150,0.7);
 }
 
 .highlight {
-	border: 1px dashed rgba(0,255,0,0.3);
+	border: 1px dashed rgba(150,255,150,0.3);
 	padding: 15px;
 	background-color: #0D0D0D;
 }
@@ -91,7 +91,7 @@ pre {
 img, main iframe {
 	width: 80%;
 	margin-left: 10%;
-	border: 1px dashed rgba(0,255,0,0.5);
+	border: 1px dashed rgba(150,255,150,0.5);
 }
 
 main header {
