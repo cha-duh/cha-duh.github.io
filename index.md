@@ -6,6 +6,7 @@ layout: default
 {:id="about"}
 
 track my development here
+
 games, toys, algorithmic music generators, data analysis
 
 my thanks to:

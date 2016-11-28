@@ -10,7 +10,7 @@ fanpage_id: ""
 
 # Site general settings
 lang: "en"
-lang_alternate: "pt_BR"
+lang_alternate: ""
 ssl: false # It will redirect to https
 
 # Media
