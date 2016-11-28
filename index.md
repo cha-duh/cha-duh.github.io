@@ -13,7 +13,7 @@ my thanks to:
   <li>[github pages](https://pages.github.com) for painless portfolio & infrequent blog maintenence</li>
   <li>[lampiaosec](https://lampiaosec.github.io) for the jekyll theme</li>
   <li>[jp2a](https://csl.name/jp2a/) for image-to-ascii conversion</li>
-
+</ul>
 
 # $ cat contact.txt
 {:id="contact"}
