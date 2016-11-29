@@ -42,7 +42,7 @@
           <description>template description</description>
         
         <pubDate>Fri, 01 Jan 2016 00:00:00 +0400</pubDate>
-        <link>/projects/template-project/</link>
+        <link>https://notareallink.fake</link>
         <guid isPermaLink="true">http://localhost:4000/projects/template-project/</guid>
       </item>
     

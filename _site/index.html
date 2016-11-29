@@ -163,39 +163,50 @@ ________________/\\\______________________________________________/\\\__________
 
 <p><a href="https://github.com/cha-duh">github</a></p>
 
-<h1 id="projects">$ cat projects.txt</h1>
+<h1 id="projects">$ cat projects.json</h1>
 
 <ul>
 
-  <li>
-    :: <a href="">template</a> ::
-    <ul><li>:: template description ::</li></ul>
-  </li>
-
-</ul>
-
-<h1 id="posts">$ cat posts.txt</h1>
-
-<ul>
-  
-    <li>
-      :: <a href="/posts/template-post/" title="A template post">template post</a> ::
-      <ul><li>:: date : 2016-01-01 16:00:00 +0400 ::</li></ul>
-    </li>
-  
-</ul>
-
-<h1 id="articles">$ cat articles.txt</h1>
-
-<ul>
-
-  <li>
-    :: <a href="/articles/example-article/" title="template article">template article</a> ::
+  <li>{
     <ul>
-      <li>:: date : 2016-01-01 16:00:00 +0400 :: </li>
+      <li>name : template,</li>
+      <li>link : <a href="https://notareallink.fake">https://notareallink.fake</a>,</li>
+      <li>desc : template description</li>
     </ul>
-  </li>
+  }</li>
 
+</ul>
+
+<h1 id="posts">$ cat posts.json</h1>
+
+<ul>
+  
+    <li>{
+      <ul>
+        <li>name : template post,</li> 
+        <li>link : <a href="/posts/template-post/">/posts/template-post/,</a></li>
+        <li>date : 2016-01-01 16:00:00 +0400,</li>
+        <li>keys : "template, post",</li>
+        <li>desc : A template post</li>
+      </ul>
+    }</li>
+  
+</ul>
+
+<h1 id="articles">$ cat articles.json</h1>
+
+<ul>
+  
+    <li>{
+      <ul>
+        <li>name : template article,</li> 
+        <li>link : <a href="/articles/example-article/">/articles/example-article/</a>,</li>
+        <li>date : 2016-01-01 16:00:00 +0400,</li>
+        <li>keys : "this, article, is, a, template",</li>
+        <li>desc : template article</li>
+      </ul>
+    }</li>
+  
 </ul>
 
 		</main>

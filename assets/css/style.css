@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
 
 html {
 	background-image: url("../img/background.gif");
@@ -11,7 +13,7 @@ body {
 	margin: auto;
 	width: 80%;
 	border: 1px dashed rgba(150,255,150,0.7);
-	font-family: "Open Sans";
+	font-family: "Cutive Mono";
 }
 
 header, nav, main, footer {

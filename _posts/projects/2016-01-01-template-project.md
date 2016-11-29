@@ -1,6 +1,6 @@
 ---
 title: "template"
-link: 
+link: "https://notareallink.fake" 
 description: "template description"
 categories: projects
 ---
