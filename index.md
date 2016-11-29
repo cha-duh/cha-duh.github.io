@@ -2,6 +2,9 @@
 layout: default
 ---
 
+# $ spotify play artist volkor x
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aartist%3A5Us4fLalowFjzrjC85k4Xq" width="256" height="80" frameborder="0" allowtransparency="true"></iframe>
+
 # $ cat about.txt
 {:id="about"}
 
@@ -14,6 +17,7 @@ my thanks to:
   <li><a href="https://pages.github.com">github pages</a> for painless portfolio & infrequent blog maintenence</li>
   <li><a href="https://lampiaosec.github.io">lampiaosec</a> for the jekyll theme</li>
   <li><a href="https://csl.name/jp2a/">jp2a</a> for image-to-ascii conversion</li>
+  <li><a href="https://github.com/hnarayanan/shpotify">shpotify</a> for bringing spotify to the command line</li>
 </ul>
 
 # $ cat contact.txt
