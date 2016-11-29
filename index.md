@@ -21,40 +21,51 @@ my thanks to:
 
 <a href="https://github.com/cha-duh">github</a>
 
-# $ cat projects.txt
+# $ cat projects.json
 {:id="projects"}
 
 <ul>
 {% for project in site.categories.projects %}
-  <li>
-    :: <a href="{{ project.link }}">{{ project.title }}</a> ::
-    <ul><li>:: {{ project.description }} ::</li></ul>
-  </li>
+  <li>{
+    <ul>
+      <li>name : {{ project.title }},</li>
+      <li>link : <a href="{{ project.link }}">{{ project.link }}</a>,</li>
+      <li>desc : {{ project.description }}</li>
+    </ul>
+  }</li>
 {% endfor %}
 </ul>
 
-# $ cat posts.txt
+# $ cat posts.json
 {:id="posts"}
 
 <ul>
   {% for post in site.categories.posts %}
-    <li>
-      :: <a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a> ::
-      <ul><li>:: date : {{post.date}} ::</li></ul>
-    </li>
+    <li>{
+      <ul>
+        <li>name : {{ post.title}},</li> 
+        <li>link : <a href="{{ post.url }}">{{ post.url }},</a></li>
+        <li>date : {{ post.date }},</li>
+        <li>keys : "{{ post.keywords }}",</li>
+        <li>desc : {{ post.description }}</li>
+      </ul>
+    }</li>
   {% endfor %}
 </ul>
 
-# $ cat articles.txt
+# $ cat articles.json
 {:id="articles"}
 
 <ul>
-{% for post in site.categories.articles %}
-  <li>
-    :: <a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a> ::
-    <ul>
-      <li>:: date : {{post.date}} :: </li>
-    </ul>
-  </li>
-{% endfor %}
+  {% for post in site.categories.articles %}
+    <li>{
+      <ul>
+        <li>name : {{ post.title}},</li> 
+        <li>link : <a href="{{ post.url }}">{{ post.url }}</a>,</li>
+        <li>date : {{ post.date }},</li>
+        <li>keys : "{{ post.keywords }}",</li>
+        <li>desc : {{ post.description }}</li>
+      </ul>
+    }</li>
+  {% endfor %}
 </ul>
