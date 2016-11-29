@@ -2,8 +2,8 @@
 layout: default
 ---
 
-# $ spotify play artist volkor x
-<iframe src="https://embed.spotify.com/?uri=spotify%3Aartist%3A5Us4fLalowFjzrjC85k4Xq" width="256" height="80" frameborder="0" allowtransparency="true"></iframe>
+# $ spotify play synthwave 
+<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Adj.jrkface%3Aplaylist%3A0HhLpehIcYpXYDCJ3CFeAN" width="256" height="80" frameborder="0" allowtransparency="true"></iframe>
 
 # $ cat about.txt
 {:id="about"}
