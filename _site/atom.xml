@@ -3,7 +3,7 @@
   <title>cha-duh</title>
   <link href="http://localhost:4000/atom.xml" rel="self" />
   <link href="http://localhost:4000/"/>
-  <updated>2016-11-30T21:44:57+04:00</updated>
+  <updated>2016-11-30T22:27:48+04:00</updated>
   <id>http://localhost:4000</id>
   <author>
     <name>cha-duh</name>
@@ -34,11 +34,11 @@
     </entry>
   
     <entry>
-      <title>template</title>
-      <link href="https://notareallink.fake" />
+      <title>tweepy-trawler</title>
+      <link href="https://github.com/cha-duh/tweepy-trawler" />
       <updated>2016-01-01T00:00:00+04:00</updated>
-      <id>/projects/template-project</id>
-      <content type="html">template description</content>
+      <id>/projects/tweepy-trawler</id>
+      <content type="html">python script for twitter network exploitation</content>
     </entry>
   
     <entry>
@@ -63,6 +63,54 @@
       <updated>2015-06-01T00:00:00+04:00</updated>
       <id>/team/cha-duh</id>
       <content type="html"></content>
+    </entry>
+  
+    <entry>
+      <title>mine-mapper</title>
+      <link href="https://github.com/cha-duh/mine-mapper" />
+      <updated>2014-07-01T00:00:00+04:00</updated>
+      <id>/projects/mine-mapper</id>
+      <content type="html">remake of minesweeper in processing</content>
+    </entry>
+  
+    <entry>
+      <title>rain-storm</title>
+      <link href="https://github.com/cha-duh/rain-storm" />
+      <updated>2013-07-01T00:00:00+04:00</updated>
+      <id>/projects/rain-storm</id>
+      <content type="html">simulation built to teach the basics of OOP in processing</content>
+    </entry>
+  
+    <entry>
+      <title>ship-shooter</title>
+      <link href="https://github.com/cha-duh/ship-shooter" />
+      <updated>2013-06-01T00:00:00+04:00</updated>
+      <id>/projects/ship-shooter</id>
+      <content type="html">game built entirely in processing - mostly a learning exercise</content>
+    </entry>
+  
+    <entry>
+      <title>ambilight-clone</title>
+      <link href="https://github.com/cha-duh/ambilight-clone" />
+      <updated>2013-04-01T00:00:00+04:00</updated>
+      <id>/projects/ambilight-clone</id>
+      <content type="html">analyze your screen and send color information to LEDs</content>
+    </entry>
+  
+    <entry>
+      <title>music-generator</title>
+      <link href="https://github.com/cha-duh/music-generator" />
+      <updated>2013-01-15T00:00:00+04:00</updated>
+      <id>/projects/music-generator</id>
+      <content type="html">self-similar music generator built in pd</content>
+    </entry>
+  
+    <entry>
+      <title>template</title>
+      <link href="https://notareallink.fake" />
+      <updated>2000-01-01T00:00:00+04:00</updated>
+      <id>/projects/template-project</id>
+      <content type="html">template description</content>
     </entry>
   
 </feed>
