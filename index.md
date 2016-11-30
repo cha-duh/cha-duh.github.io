@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# $ spotify play synthwave 
-<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Adj.jrkface%3Aplaylist%3A0HhLpehIcYpXYDCJ3CFeAN" width="256" height="80" frameborder="0" allowtransparency="true"></iframe>
 
 # $ cat about.txt
 {:id="about"}
@@ -20,6 +18,9 @@ my thanks to:
   <li><a href="https://github.com/hnarayanan/shpotify">shpotify</a> for bringing spotify to the command line</li>
 </ul>
 
+# $ spotify play synthwave 
+<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Adj.jrkface%3Aplaylist%3A0HhLpehIcYpXYDCJ3CFeAN" width="256" height="80" frameborder="0" allowtransparency="true"></iframe>
+
 # $ cat contact.txt
 {:id="contact"}
 
@@ -34,6 +35,9 @@ my thanks to:
     <ul>
       <li>name : {{ project.title }},</li>
       <li>link : <a href="{{ project.link }}">{{ project.link }}</a>,</li>
+      {% if project.demo %}
+      <li>demo : <a href="{{ project.demo }}">{{ project.demo }}</a>,</li>
+      {% endif %}
       <li>desc : {{ project.description }}</li>
     </ul>
   }</li>
